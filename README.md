@@ -1,4 +1,6 @@
 # The-OmniTurret
+> **Credit to discord user [MrBanana](https://discord.com/users/1245929364265111674) for making this hack (I'm just fixing things)**
+
 This makes your IR turret fully mobile. Now unlike some other "turret-tank" style hacks, this one requires no 3D printer, only 8 wires. (Oh, and some tape). 
 
 ## Materials
@@ -25,7 +27,5 @@ This makes your IR turret fully mobile. Now unlike some other "turret-tank" styl
 That's it for wiring!
 
 ### Code:
-CL IDE: Paste the code from the below files into the stock code and config.h files, then upload.
-Arduino IDE: Download the two files and open the .ino file. The IDE will prompt you to put it into a folder of the same name. Do that, then drag config.h into that folder as well, then upload. 
-Image
-Image
+- CL IDE: Paste the code from the files in this repository into the `stock code` and `config.h` files, then upload.
+- Arduino IDE: Download the two files and open the .ino file. The IDE will prompt you to put it into a folder of the same name. Do that, then drag config.h into that folder as well, then upload. 
