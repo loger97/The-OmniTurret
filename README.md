@@ -1,5 +1,5 @@
 # The-OmniTurret
-> **Credit to discord user [MrBanana](https://discord.com/users/1245929364265111674) for making this hack (I'm just fixing things)**
+> **Credit to discord user [MrBanana](https://discord.com/users/1245929364265111674) for making this hack (I'm just fixing some problems)**
 
 This makes your IR turret fully mobile. Now unlike some other "turret-tank" style hacks, this one requires no 3D printer, only 8 wires. (Oh, and some tape). 
 
