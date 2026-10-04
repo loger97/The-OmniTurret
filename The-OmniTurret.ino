@@ -1,9 +1,15 @@
 /*
-Huge thanks to those who have derived the kinematic conrrols for omni-directional robots. This hackpack comes with an optional educational reading that I highly reccomend: (Siradjuddin, Indrazno. "Kinematics and control a three wheeled omnidirectional mobile robot." Int. J. Electr. Electron. Eng 6.12 (2019): 1-6.) [https://www.internationaljournalssrg.org/IJEEE/2019/Volume6-Issue12/IJEEE-V6I12P101.pdf] 
+Huge thanks to those who have derived the kinematic conrrols for omni-directional robots. This hackpack comes with an optional educational 
+reading that I highly reccomend: (Siradjuddin, Indrazno. "Kinematics and control a three wheeled omnidirectional mobile robot." 
+Int. J. Electr. Electron. Eng 6.12 (2019): 1-6.) [https://www.internationaljournalssrg.org/IJEEE/2019/Volume6-Issue12/IJEEE-V6I12P101.pdf] 
 
-Amazingly the relationship of the wheel speeds of the robot to its overall speed vector is algebraically linear.  The formula also works for any relative wheel angle and can easily be expanded to include more wheels. This gives a mathematically deterministic way to get the robot from A to B defined by two translation variables and one rotation variable, a powerful tool. 
+Amazingly the relationship of the wheel speeds of the robot to its overall speed vector is algebraically linear.  
+The formula also works for any relative wheel angle and can easily be expanded to include more wheels. 
+This gives a mathematically deterministic way to get the robot from A to B defined by two translation variables and one rotation variable, 
+a powerful tool. 
 
-Combining this with a gyroscope allows for a true field oriented drive-- where  joystick commands always will move the robot forwards relative to you, despite which way the robot is facing. For those of you willing to take on the challenge, this is a great hack to try!
+Combining this with a gyroscope allows for a true field oriented drive-- where  joystick commands always will move the robot forwards 
+relative to you, despite which way the robot is facing. For those of you willing to take on the challenge, this is a great hack to try!
 */
 
 #include "config.h"
