@@ -13,10 +13,10 @@ This makes your IR turret fully mobile. Now unlike some other "turret-tank" styl
 ## Instructions
 ### Structural:
 1. Remove the legs from your IR turret.
-   a. You can do this easily by unscrewing the bottom platform from the servo mount
-   b. Then taking off the orange hex nuts, removing the legs, and putting the bottom plate back on the servo mount.
-2. Grab some tape. It can be any tape you want.
-   a. Tear 4 thin strips and use those to anchor your turret to the top plate of the Omnibot. That's literally it for building instructions.
+   - You can do this easily by unscrewing the bottom platform from the servo mount
+   - Then taking off the orange hex nuts, removing the legs, and putting the bottom plate back on the servo mount.
+3. Grab some tape. It can be any tape you want.
+   - Tear 4 thin strips and use those to anchor your turret to the top plate of the Omnibot. That's literally it for building instructions.
 
 ### Wiring:
 1. Unplug the 4-wire bundle of signal wires (the blue, green, yellow, and purple ones) from the turret.
@@ -24,8 +24,20 @@ This makes your IR turret fully mobile. Now unlike some other "turret-tank" styl
 3. Connect the red and black wire bundles to the red and black rails on the Omnibot breadboard to connect power to the servos.
 4. Connect the roll servo wire to pin 10 (next to the green and blue wires)
 5. Connect the pitch servo to pin 13 (directly opposite that) using the two M-M wires.
-That's it for wiring!
+
+**That's it for wiring!**
 
 ### Code:
-- CL IDE: Paste the code from the files in this repository into the `stock code` and `config.h` files, then upload.
-- Arduino IDE: Download the two files and open the .ino file. The IDE will prompt you to put it into a folder of the same name. Do that, then drag config.h into that folder as well, then upload. 
+> Use Github desktop to clone this repo on to your computer.
+#### Option 1 - Arduino IDE
+- Open the .ino file in Arduino IDE.
+   - The IDE may prompt you to put it into a folder of the same name. Then drag config.h into that folder if it is not already there.
+- Plug the micro controller into your computer, it may come up as "Unknown device (COM#)", select that.
+
+#### Option 2 - CLIDE (not recommended, use only if you can't use Arduino IDE)
+- Open CLIDE as OmniBot.
+- Copy the contents of the .ino file to stockcode.ino in CLIDE.
+- Copy the contents of config.h file to config.h in CLIDE.
+- Plug the micro controller into your computer, it should come up as "Crunch labs Micro (COM#)", select that.
+
+> Upload the code to the microcontroller.
